@@ -1,0 +1,13 @@
+package adactinhotelapp;
+
+import org.openqa.selenium.WebDriver;
+
+public class Base_AdactinHotelApp {
+	
+	static WebDriver driver;
+	
+	public static void browser
+
+	
+	
+}

@@ -1,0 +1,14 @@
+package adactinhotelapp;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Main_AdactinHotelApp {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "https://adactinhotelapp.com/");
+		WebDriver driver = new ChromeDriver();
+	}
+	
+	
+}

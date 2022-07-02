@@ -1,0 +1,20 @@
+package adactinhotelapp;
+
+import java.sql.Driver;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.Browser;
+
+public class Main_AdactinHotelApp {
+
+	public static void main(String[] args) {
+		WebDriver driver = new ChromeDriver();
+		Base_AdactinHotelApp.browser();
+		Base_AdactinHotelApp.NewUserRegistrationForm();
+		Base_AdactinHotelApp.Password();
+		Base_AdactinHotelApp.ConfirmPassword();
+	}
+	
+	
+}

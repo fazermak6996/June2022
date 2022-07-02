@@ -1,0 +1,16 @@
+package adactinhotelapp;
+
+import java.sql.Driver;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.Browser;
+
+public class Main_AdactinHotelApp extends Base_AdactinHotelApp{
+
+	public static void main(String[] args) {
+		Main_AdactinHotelApp sample = new Main_AdactinHotelApp();
+		browser();
+		getUrl("https://adactinhotelapp.com/");
+	}
+	}

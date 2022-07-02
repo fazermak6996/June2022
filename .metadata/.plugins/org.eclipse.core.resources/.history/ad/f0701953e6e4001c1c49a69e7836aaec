@@ -1,0 +1,18 @@
+package adactinhotelapp;
+
+import java.sql.Driver;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Main_AdactinHotelApp {
+
+	public static void main(String[] args) {
+		System.getProperty("webdriver.chrome.driver", "C:\\Users\\fazer\\.eclipse\\maven\\SampleMaven\\chromedriver.exe");
+		Base_AdactinHotelApp.browser();
+		
+		
+	}
+	
+	
+}
